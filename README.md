@@ -19,6 +19,10 @@
 ![SASS](https://img.shields.io/badge/-SASS-090909?style=for-the-badge&logo=SASS&logoColor=B4068E)
 ![GIT](https://img.shields.io/badge/-GIT-090909?style=for-the-badge&logo=GIT&logoColor=CC0000)
 
+## Details
+
+Выполнен летом 2021г.
+
 ## Developers
 
 - [JoStooop](https://github.com/JoStooop)
