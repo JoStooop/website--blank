@@ -1,0 +1,113 @@
+.information {
+  background-color: #191919;
+  padding: 64px 0;
+}
+
+.information-cards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.information-card-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.information-card-text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #555555;
+  margin: 32px 0;
+}
+
+.information-card-link {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #d1d1d1;
+  text-decoration: none;
+}
+
+//.information-card-link:after {
+//  content: url("");
+//  margin-left: 8px;
+//}
+
+.information-card-post-data,
+.information-card-twitter-data {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #363636;
+  margin: 0;
+  transition: 1.3s;
+}
+
+
+.information-divider {
+  height: 2px;
+  background-color: #252525;
+  border: none;
+  margin: 24px 0;
+}
+
+.information-card-post-text,
+.information-card-twitter-text {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #555555;
+  margin: 8px 0;
+  transition: 0.3s;
+}
+
+.information-card-post:hover .information-card-post-text {
+  color: #c7b299;
+}
+
+.information-card-post:hover .information-card-post-data {
+  color: #ffffff;
+}
+
+.information-card {
+  max-width: 270px;
+}
+
+.information-card-images {
+  max-width: 300px;
+}
+
+.information-card-img:hover {
+  transform: scale(1.60) translateX(20%) translateX(-55%);
+  border-radius: 5%;
+}
+
+.information-card-img-left:hover {
+  transform: scale(1.60) translateX(20%) translateX(15%);
+  border-radius: 5%;
+}
+
+.info-card-twitter-link {
+  color: #00bff3;
+  text-decoration: none;
+}
+
+.link-bit {
+  color: #959595;
+}
+
+.information-card-images-top {
+  margin-bottom: 8px;
+}
+
+.information-card-img {
+  transition: 1s;
+}
+
+.information-card-img-left {
+  margin-right: 8px;
+  transition: 1s;
+}

@@ -1,0 +1,44 @@
+.statistics {
+  background-color: #696969;
+  padding: 60px 0;
+
+  &-cards {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  &-card {
+    transition: 1s;
+
+    &:hover {
+      transform: rotateY(360deg);
+    }
+  }
+
+  &-total {
+    font-size: 48px;
+    line-height: 36px;
+    font-weight: 200;
+    color: #ffffff;
+    margin: 28px 0 20px 0;
+  }
+
+  &-title {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #c7b299;
+    margin: 0;
+  }
+
+  &-divider {
+    margin-top: 24px;
+    max-width: 50px;
+    height: 2px;
+    background-color: #ffffff;
+    border: none;
+  }
+}

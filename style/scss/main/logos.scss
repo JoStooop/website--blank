@@ -1,0 +1,51 @@
+.logos {
+  background-color: #696969;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  padding: 128px 0;
+}
+
+.logos-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logos-logo1-img {
+  margin: 32px;
+  transition: 2.5s;
+
+  &:hover {
+    transform: scale(1.5) rotate(360deg);
+  }
+}
+
+.logos-logo2-img {
+  margin: 32px;
+  transition: 2s;
+
+  &:hover {
+    transform: rotateX(360deg);
+  }
+}
+
+.logos-logo3-img {
+  margin: 32px;
+  transition: 1s;
+
+  &:hover {
+    transform: rotateY(360deg) skewX(40deg);
+  }
+}
+
+.logos-logo4-img {
+  margin: 32px;
+  transition: 4s;
+
+  &:hover {
+    transform: scale(1.5) translateY(30%);
+  }
+}

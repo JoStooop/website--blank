@@ -1,0 +1,61 @@
+.directions {
+  display: flex;
+  align-items: baseline;
+  padding: 60px 0;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.directions-card {
+  text-align: center;
+  max-width: 240px;
+  margin: 24px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover .directions-divider {
+    background-color: #c7b299;
+  }
+
+  &:hover .directions-title {
+    color: #c7b299;
+  }
+
+  &:hover .directions-icon{
+    color: #c7b299;
+  }
+}
+
+.directions-icon {
+  font-size: 48px;
+  color: #555555;
+  transition: 1.3s;
+}
+
+.directions-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #555555;
+  margin-top: 24px;
+  transition: 0.8s;
+}
+
+.directions-text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #8c8c8c;
+  margin: 0;
+}
+
+.directions-divider {
+  min-width: 70px;
+  height: 3px;
+  background-color: #f1eee9;
+  border: none;
+  margin-top: 32px;
+  max-width: 70px;
+  transition: 0.5s;
+}

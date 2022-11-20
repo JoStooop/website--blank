@@ -1,0 +1,59 @@
+.theme {
+  background-color: #afafaf;
+
+  &-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 24px;
+    flex-wrap: wrap;
+  }
+
+  &-title {
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  &-logo {
+    color: #c7b299;
+  }
+
+  &-text {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #615855;
+    margin: 4px;
+  }
+
+  &-button {
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background-color: #998675;
+    border-radius: 3px;
+    padding: 12px 28px;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 32px;
+    margin-top: 8px;
+    transition-duration: .6s;
+
+    &:hover {
+      background-color: #ffffff;
+      color: #998675;
+    }
+  }
+}
+
+
+
+
+
+
+
+

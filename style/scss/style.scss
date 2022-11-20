@@ -1,0 +1,26 @@
+@import "fonts.scss";
+@import "reset.scss";
+
+body {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+@import "header/header.scss";
+
+@import "main/main.scss";
+
+@import "footer/footer.scss";
+

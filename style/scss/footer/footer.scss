@@ -1,0 +1,45 @@
+.footer {
+  background-color: #111111;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 300;
+  padding: 40px 0;
+}
+
+.footer-blocks {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-block-left,
+.footer-block-right {
+  display: flex;
+}
+
+.footer-title {
+  color: #555555;
+  margin-right: 4px;
+}
+
+.footer-logo,
+.footer-link-market,
+.footer-link-theme {
+  color: #959595;
+  text-decoration: none;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #252525;
+  transition: 0.5s;
+
+  &:hover {
+    color: #c7b299;
+  }
+}
+
+.footer-text-styles {
+  color: #252525;
+  padding: 0 8px;
+}

@@ -1,0 +1,175 @@
+.posts {
+  padding: 80px 0;
+}
+
+.posts-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.posts-title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #555555;
+  margin: 0;
+}
+
+.posts-text {
+  max-width: 780px;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #8c8c8c;
+  text-align: center;
+}
+
+.posts-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.posts-card {
+  max-width: 370px;
+  position: relative;
+  margin: 32px 16px;
+
+  &:hover .posts-overlay {
+    opacity: 1;
+  }
+
+  &:hover .posts-card-content {
+    background-color: #362f2d;
+    border: none;
+  }
+
+  &:hover .posts-card-title {
+    color: #c7b299;
+  }
+
+  &:hover .posts-card-text {
+    color: #ffffff;
+  }
+
+  &:hover .posts-card-data-number {
+    background-color: #c7b299;
+  }
+
+  &:hover .posts-card-data-month {
+    background-color: #a48d72;
+  }
+}
+
+.posts-overlay {
+  background-color: rgba(17, 17, 17, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 220px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.posts-card-data {
+  max-width: 50px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
+
+.posts-card-data-number {
+  display: block;
+  background-color: #363636;
+  border-radius: 3px 3px 0 0;
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #ffffff;
+  padding: 8px 12px;
+  text-align: center;
+}
+
+.posts-card-data-month {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #252525;
+  border-radius: 0 0 3px 3px;
+  display: block;
+  padding: 4px 12px;
+  text-align: center;
+}
+
+.posts-img {
+  width: 370px;
+  height: 220px;
+  display: block;
+}
+
+.posts-card-content {
+  padding: 30px;
+  border: 1px solid #f8f8f8;
+  transition: 0.5s;
+}
+
+.posts-card-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #555555;
+  margin: 0;
+}
+
+.posts-card-text {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+  color: #8c8c8c;
+  margin: 20px 0;
+}
+
+.posts-card-link {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #c7b299;
+  text-decoration: none;
+}
+
+.posts-card-link:after {
+  //content: url("../img/post_linck_arrow.png");
+  margin-left: 8px;
+}
+
+.posts-buttons-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 12%;
+}
+
+.posts-button {
+  display: flex;
+  outline: none;
+  font-size: 24px;
+  color: #ffffff;
+  border: 3px solid #d1d1d1;
+  border-radius: 50%;
+  padding: 0;
+  background-color: #d1d1d1;
+  transition: 1s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #c7b299;
+    border: 3px solid #c7b299;
+    transform: scale(1.25);
+  }
+}
+
+

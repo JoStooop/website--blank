@@ -1,0 +1,48 @@
+.info {
+  background-color: #fbfaf8;
+
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &-column-right {
+    max-width: 55%;
+    margin-left: 32px;
+  }
+
+  &-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #555555;
+    margin: 0;
+  }
+
+  &-text {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+    margin: 32px 0;
+  }
+
+  &-list {
+    line-height: 32px;
+    padding-left: 80px;
+  }
+
+  &-list-item {
+    list-style-type: none;
+    position: relative;
+
+    &:before {
+      content: url("../../../assets/images/mobile_list_icon.png");
+      position: absolute;
+      top: 4px;
+      left: -40px;
+    }
+  }
+}
