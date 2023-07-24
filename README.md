@@ -14,6 +14,8 @@ Minimalistic design without content - just images with dimensions and placeholde
 ## Website preview:
 <details><summary><b>Show screenshots</b></summary>
 
+![screen--jostooop--website-blank](readme-images/screen--jostooop--website-blank.png)
+
 </details>
 
 ## Developers:
